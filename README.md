@@ -1,16 +1,56 @@
-# React + Vite
+# 🌍 Sort It Out! - Recycling Game for Kids
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and educational children's game where players learn to sort different types of garbage into their appropriate recycling bins!
 
-Currently, two official plugins are available:
+## 🎮 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **Drag and Drop** - Click and drag each garbage item to the correct bin
+2. **Learn** - Discover which items belong in Organic, Paper, Plastic, Glass, or Metal bins
+3. **Progress** - Complete levels to become a Recycling Hero! 🦸
 
-## React Compiler
+## 🗑️ Bin Categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Bin | Items |
+|-----|-------|
+| 🟤 Organic | Banana peels, apple cores, eggshells, food waste |
+| 📄 Paper | Newspapers, cardboard, paper bags |
+| ♻️ Plastic | Bottles, containers, plastic bags |
+| 🫙 Glass | Jars, bottles, glass containers |
+| 🔩 Metal | Cans, foil, metal containers |
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎵 **Sound Effects** - Fun audio feedback for correct/incorrect answers
+- 🗣️ **Voice Support** - Speaks instructions in English and Georgian
+- 📈 **Progressive Levels** - Difficulty increases as you improve
+- 🏆 **Score System** - Track your progress and achievements
+- 💡 **Fun Facts** - Learn interesting environmental facts!
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 🛠️ Built With
+
+- React + Vite
+- Web Audio API for sound effects
+- Speech Synthesis for voice guidance
+
+## 🌱 Environmental Impact
+
+This game teaches children the importance of proper waste sorting and recycling. By learning early, kids help:
+
+- Reduce landfill waste
+- Save natural resources
+- Protect wildlife and oceans
+- Combat climate change
+
+## 📝 License
+
+MIT
